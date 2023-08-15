@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 public class IntegradorI {
 	
-    //The purpose of the Bisection Method is to find the most approximated value of the roots of a function.
-    //The root(s) of a function is the value in which the graph intersect with the x-axis.
+    
     public static Scanner console=new Scanner (System.in);//Method to read the user's input
     public static final int iterations=1000;
     public static final int limitSum=6;//Number of iterations of the cosine function
