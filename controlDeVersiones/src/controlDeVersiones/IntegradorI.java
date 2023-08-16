@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class IntegradorI {
 	
-    public static Scanner console=new Scanner (System.in);//Method to read the user's input
-    
+    public static Scanner console = new Scanner (System.in);//Method to read the user's input
+
     public static final int iterations = 1000;
     public static final int limitSum = 6;//Number of iterations of the cosine function
     public static final double epsilon = 0.0001;//Margin of error for the bisection method
@@ -22,17 +22,17 @@ public class IntegradorI {
         for(int i=1;i<=exponent;i++){
             pow*=base;
         }
-        return pow;//Returns the final value of the "base" multiplied "exponent" times.
+        return pow;//Returns the final value of the "base" multiplied by "exponent" times.
     }
-    public static int factorial(int n){//Factorial function: based on a input number, multiplies said n by the smaller
-        int factorial=1;               //whole numbers.
+    public static int factorial(int n){//Factorial function: based on a input number, multiplies said n by the smaller whole numbers.
+        int factorial=1;               
         for(int i=1;i<=n;i++){
             factorial*=i;
         }
         return factorial;//Returns the multiplication of the n number by the whole numbers smaller to it.
     }
 
-    public static double cos(double x){//Cosine function: Uses a pre-establised sequence to find the aproximated cosine
+    public static double cos(double x){//Cosine function: This method uses a pre-establised sequence to find the aproximated cosine
         double cos=0;                  //of a x input number given in radians.
         for(int i=0;i<limitSum;i++){
             cos+=(pow(-1,i))*pow(x,(2*i))/ (factorial(2*i));
