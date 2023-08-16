@@ -26,8 +26,10 @@ public class IntegradorI {
     }
     
     public static  int functioncualquiera(int x) {
-    	return x+2*x;
+    	return x+2*x+3;//added a different value to the equation
     }
+    
+    
     
     public static int factorial(int n){//Factorial function: based on a input number, multiplies said n by the smaller
         int factorial=1;               //whole numbers.
