@@ -24,6 +24,9 @@ public class IntegradorI {
         }
         return pow;//Returns the final value of the "base" multiplied "exponent" times.
     }
+    public static int funcionCualquiera2(int m){
+        return m+1;
+    }
     public static int factorial(int n){//Factorial function: based on a input number, multiplies said n by the smaller
         int factorial=1;               //whole numbers.
         for(int i=1;i<=n;i++){
