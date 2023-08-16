@@ -25,12 +25,13 @@ public class IntegradorI {
         return pow;//Returns the final value of the "base" multiplied by "exponent" times.
     }
 <<<<<<< HEAD
-    public static int factorial(int n){//Factorial function: based on a input number, multiplies said n by the smaller whole numbers.
-        int factorial=1;               
-=======
+    /*public static int factorial(int n){//Factorial function: based on a input number, multiplies said n by the smaller whole numbers.
+        int factorial=1;    
+	}*/
+
     
     public static  int functioncualquiera(int x) {
-    	return x+2*x+3;//added a different value to the equation
+    	return x+2*x+3;//new function, not being used
     }
     
     
