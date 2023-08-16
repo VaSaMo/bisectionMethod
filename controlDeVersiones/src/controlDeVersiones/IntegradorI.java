@@ -26,7 +26,7 @@ public class IntegradorI {
     }
     
     public static  int functioncualquiera(int x) {
-    	return x+2*x+3;//added a different value to the equation
+    	return x+2*x;//new function, not being used
     }
     
     
