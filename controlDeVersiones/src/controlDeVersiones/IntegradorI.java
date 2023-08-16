@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class IntegradorI {
 	
-    
     public static Scanner console=new Scanner (System.in);//Method to read the user's input
-    public static final int iterations=1000;
-    public static final int limitSum=6;//Number of iterations of the cosine function
-    public static final double epsilon=0.0001;//Margin of error for the bisection method
+    
+    public static final int iterations = 1000;
+    public static final int limitSum = 6;//Number of iterations of the cosine function
+    public static final double epsilon = 0.0001;//Margin of error for the bisection method
     //OPERATIONS
     public static double abs(double x){
         if(x>=0){//evaluates if the number has a positive sign or if its 0
